@@ -1,0 +1,65 @@
+.announcement-container {
+  background-color: #fafafa;
+  padding: 68px 0px;
+}
+
+.announcement-heading h1 {
+  font-family: Source Sans Pro;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  color: #212121;
+}
+
+.announcement-card-container {
+  margin-top: 8px;
+}
+
+.announcement-card {
+  width: 220px;
+  height: 238px;
+  border-radius: 16px;
+  padding: 12px;
+  border: 1px solid #6a37651a;
+}
+
+.announcement-card-body h5 {
+  font-family: Source Sans Pro;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #27272a;
+  margin-top: 10px;
+}
+
+.announcement-card-body p {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19.83px;
+  color: #71717a;
+}
+
+.one {
+  background-color: #f8fdff;
+  border: 1.1px solid #00b6ff;
+  height: 257px;
+  width: 243px;
+}
+
+.two {
+  background-color: #fef8ff;
+  border: 1px solid #6a37651a;
+}
+.three {
+  background-color: #f8fff8;
+  border: 1px solid #3b6a371a;
+}
+.four {
+  background-color: #f8f8ff;
+  border: 1px solid #37396a1a;
+}
+.five {
+  background-color: #fffdf8;
+  border: 1px solid #6a5f371a;
+}

@@ -1,0 +1,69 @@
+.test-by-modality-container {
+  padding: 51px 0;
+}
+
+.test-by-modality-heading h1 {
+  font-family: Source Sans Pro;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.test-by-modality-btn {
+  gap: 20px;
+}
+
+.test-by-modality-right-btn {
+  border-radius: 28px;
+  border: 1px solid #e4e4e7;
+  background-color: #fcc42c;
+  outline: none;
+  width: 42px;
+  height: 42px;
+}
+
+.test-by-modality-left-btn {
+  border-radius: 28px;
+  outline: none;
+  border: 1px solid #eaecf0;
+  background-color: white;
+  width: 42px;
+  height: 42px;
+  gap: 10px;
+}
+
+.test-by-modality-card-container {
+  padding-left: 111px;
+}
+
+.test-by-modality-card {
+  width: 289px;
+  height: 217px;
+  box-shadow: 2px 2px 24px 0px #f7a7080a;
+  margin: 16px 0 1px 0;
+}
+
+.test-by-modality-card-heading {
+  border-width: 1px 1px 0px 1px;
+  border-style: solid;
+  border-color: #f7a70842;
+  border-radius: 4px 4px 0px 0px;
+}
+
+.test-by-modality-card-heading p {
+  font-family: Source Sans Pro;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  padding: 12px 0;
+  margin-bottom: 0;
+  color: #212121;
+}
+
+.test-by-modality-card-body {
+  border-width: 0px 1px 1px 1px;
+  border-style: solid;
+  border-color: #f7a70842;
+  border-radius: 0px 0px 4px 4px;
+  overflow: hidden;
+}

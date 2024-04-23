@@ -1,0 +1,73 @@
+.nav-first {
+  background-color: #fcc42c;
+}
+
+.nav-first ul li a {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  color: black;
+}
+
+.nav-form {
+  width: 100%;
+}
+
+.nav-form input {
+  border: 1px solid #f4f4f5;
+  outline: none;
+  background-color: #f7f7fb;
+  border-radius: 8px 0 0 8px;
+  padding: 8px 160px 8px 20px;
+}
+
+.nav-form input::placeholder {
+  color: #71717a;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 2%;
+}
+
+.nav-form button {
+  border: none;
+  outline: none;
+  background-color: #fcc42c;
+  border-radius: 0 8px 8px 0;
+  padding: 8px 9px 8px 9px;
+}
+
+.nav-details {
+  width: 100%;
+  gap: 10px;
+}
+
+.nav-item-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-item-1 span {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  padding-left: 10px;
+}
+
+.nav-third {
+  background-color: #f7f7fb;
+}
+
+.nav-list-items ul li a {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  color: #71717a;
+}
