@@ -1,0 +1,77 @@
+.broad-print-container {
+  padding: 88px 0;
+  background: #f7f7fb;
+  gap: 42px;
+}
+
+.broadcast-heading h1 {
+  font-family: Source Sans Pro;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  color: #27272a;
+}
+
+.broadcast-nav-heading {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #a1a1aa;
+}
+
+.broadcast-right-btn {
+  outline: none;
+  border: none;
+  background-color: #fff;
+  margin: 8px;
+}
+
+/* ___ DOWN ___ */
+
+.broadcast-card-container {
+  margin-top: 16px;
+}
+
+.broadcast-card {
+  width: 378px;
+  height: 458px;
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 16px;
+  border: 1px solid #e4e4e7;
+}
+
+.broadcast-card-youtube-image {
+  top: 78px;
+  left: 144px;
+}
+
+.broadcast-body-text {
+  margin-top: 12px;
+  gap: 10px;
+}
+.broadcast-content-title {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #71717a;
+}
+.broadcast-body-heading h5 {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #27272a;
+}
+.broadcast-body-sub-heading p {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #71717a;
+}
+.broadcast-body-sub-heading span {
+  font-weight: 700;
+}

@@ -1,5 +1,5 @@
 .healthCare-container {
-  /* padding: 51px 0; */
+  padding: 73px 0;
   height: 543px;
   background-color: #fafafa;
 }
@@ -32,4 +32,27 @@
   width: 42px;
   height: 42px;
   gap: 10px;
+}
+
+.healthCare-card-container {
+  padding-left: 168px;
+  margin-top: 20px;
+}
+
+.healthCare-card {
+  width: 378.67px;
+  height: 329px;
+  border-radius: 32px;
+  border: 1px solid #00231f0d;
+  background-color: #ffffff;
+  padding: 16px 24px 24px 24px;
+}
+
+.healthCare-card-heading {
+  font-family: Source Sans Pro;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 1%;
+  color: #3a3e44;
 }

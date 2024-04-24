@@ -1,0 +1,50 @@
+.recommend-container {
+  padding: 67px 0;
+  position: relative;
+}
+
+.recommend-card {
+  height: 350px;
+  background-color: #f7f7fb;
+  border-radius: 20px;
+  margin-top: 22px;
+}
+
+.recommend-card-text {
+  padding: 0 265px 0 40px;
+}
+
+.recommend-card-color {
+  width: 410px;
+  height: 350px;
+  background-color: #fcc42c;
+  border-radius: 0px 20px 20px 0px;
+}
+.recommend-card-text p {
+  margin-bottom: 0;
+  font-family: Source Sans Pro;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #585981;
+}
+
+.recommend-card-text-support {
+  margin-bottom: 0;
+  font-family: Source Sans Pro;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  color: #585981;
+}
+
+.laptop {
+  top: 70px;
+  left: 702px;
+}
+
+.screen {
+  top: 77px;
+  left: 745.5px;
+  border-radius: 5px;
+}

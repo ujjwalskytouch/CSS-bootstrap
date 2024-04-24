@@ -1,0 +1,29 @@
+.presenting-container {
+  height: 657.57px;
+  padding: 70px 0px;
+}
+
+.presenting-content {
+  gap: 102px;
+}
+.presenting-content-info {
+  gap: 42px;
+}
+.presenting-content-heading {
+  gap: 8px;
+}
+
+.presenting-content-title {
+  font-family: Source Sans Pro;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 45px;
+  color: #212121;
+}
+.presenting-content-sub-title {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #71717a;
+}
