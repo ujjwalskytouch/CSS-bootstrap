@@ -50,3 +50,76 @@
   font-size: 14px;
   line-height: 21px;
 }
+
+/* MOBILE */
+
+.mobile-book-container {
+  margin-top: 150px;
+}
+
+.mobile-book-card-one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 119px;
+}
+.mobile-book-card-one h1 {
+  font-family: Poppins;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 15px;
+  text-align: center;
+  color: #27272a;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1024px) {
+  .book-image {
+    padding: 15px;
+  }
+  .book-image img {
+    width: 30px;
+  }
+  .book-card-text {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .book-hover-image {
+    padding: 18px;
+  }
+  .book-hover-card-text h1 {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .book-hover-card-text p {
+    font-size: 13px;
+    line-height: 19px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .book-image {
+    padding: 12px;
+  }
+  .book-image img {
+    width: 25px;
+  }
+  .book-card-text {
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .book-hover-image {
+    padding: 14px;
+  }
+  .book-hover-card-text h1 {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .book-hover-card-text p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}

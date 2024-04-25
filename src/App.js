@@ -5,6 +5,7 @@ import Blog from "./components/Blog";
 import Book from "./components/Book";
 import Broadcast from "./components/Broadcast";
 import Facilities from "./components/Facilities";
+import Footer from "./components/Footer";
 import Health from "./components/Health";
 import HealthCare from "./components/HealthCare";
 import HealthCondition from "./components/HealthCondition";
@@ -13,6 +14,7 @@ import HeroSection from "./components/HeroSection";
 import Location from "./components/Location";
 import Modality from "./components/Modality";
 import Navbar from "./components/Navbar";
+import OneStop from "./components/OneStop";
 import OurJourney from "./components/OurJourney";
 import Popular from "./components/Popular";
 import Presenting from "./components/Presenting";
@@ -29,7 +31,7 @@ function App() {
       <Facilities />
       <Health />
       <Popular />
-      <HealthRisk />
+      {/*  <HealthRisk />
       <HealthCondition />
       <Modality />
       <Announcement />
@@ -43,6 +45,8 @@ function App() {
       <Presenting />
       <OurJourney />
       <Location />
+      <OneStop />
+      <Footer /> */}
     </>
   );
 }

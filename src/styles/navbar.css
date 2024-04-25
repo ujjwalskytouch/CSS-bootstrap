@@ -71,3 +71,118 @@
   letter-spacing: 2%;
   color: #71717a;
 }
+
+/* MOBILE */
+
+.mobile-navbar {
+  height: 160px;
+  background: #fcc42c;
+  border-radius: 0px 0px 16px 16px;
+  padding: 0px 0px 64px 0px;
+}
+
+.mobile-navbar-top {
+  padding: 16px 24px 16px 24px;
+}
+.mobile-navbar-top-time {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  color: #18181b;
+}
+.mobile-navbar-top-items {
+  display: flex;
+  gap: 2px;
+}
+.mobile-nav-input {
+  background: #ffffff4d;
+  padding: 10px 18px 10px 18px;
+  border-radius: 12px;
+}
+
+.mobile-nav-input input {
+  outline: none;
+  border: none;
+  background: transparent;
+  margin-left: 10px;
+  margin-top: -2px;
+}
+
+.mobile-nav-input input::placeholder {
+  font-family: Source Sans 3;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.94px;
+  text-align: left;
+  color: #27272a;
+}
+
+.mobile-nav-icons {
+  background: #ffffff4d;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+.mobile-nav-carousel {
+  top: 125px;
+}
+
+.mobile-nav-card {
+  height: 150px;
+  width: 300px;
+  background: linear-gradient(263.13deg, #cef9c7 0%, #ffeb9d 98.23%);
+  padding: 16px 12px 16px 12px;
+  border-radius: 16px;
+}
+
+.mobile-nav-card-content h1 {
+  font-family: Source Sans Pro;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20.11px;
+  color: #27272a;
+}
+.mobile-nav-card-content h2 {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #71717a;
+}
+
+.mobile-nav-card-content h3 {
+  color: #fcc42c;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1200px) {
+  .nav-sec-container {
+    justify-content: space-between;
+  }
+  .nav-details {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .nav-first ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    line-height: 16px;
+  }
+  .nav-list-items ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    line-height: 16px;
+  }
+}

@@ -17,15 +17,45 @@ const Popular = () => {
     slidesToScroll: 1,
     prevArrow: false,
     nextArrow: false,
+    responsive: [
+      {
+        breakpoint: 1440,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 425,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
   return (
     <div className="Popular-container">
       <div className="container">
-        <div className="Popular-menu d-flex align-items-center justify-content-start ">
+        <div className="Popular-menu d-flex align-items-center justify-content-between justify-content-sm-start  ">
           <div className="Popular-menu-title">
             <h1>Popular Tests</h1>
           </div>
-          <div className="Popular-menu-list">
+          <div className="Popular-menu-list  d-none d-sm-inline-flex">
             <ul className="d-flex my-auto">
               <li>
                 <a href="/">All</a>
@@ -55,11 +85,11 @@ const Popular = () => {
             <div className="Popular-card">
               <img
                 src={popularAdvanced}
-                className="card-img-top"
+                className="card-img-top d-none d-sm-inline-flex"
                 alt="..."
-                style={{ width: "299px", height: "170px" }}
+                style={{ maxHeight: "170px" }}
               />
-              <div className=" Popular-card-body">
+              <div className=" Popular-card-body d-flex flex-column gap-2 gap-sm-0">
                 <div className="Popular-card-body-text">
                   <div className="Popular-card-body-heading">
                     <h5 className="card-title">Package Name</h5>
@@ -78,7 +108,7 @@ const Popular = () => {
                       dolor do amet
                     </p>
                   </div>
-                  <div className="Popular-card-price d-flex align-items-center justify-content-start">
+                  <div className="Popular-card-price d-flex align-items-center justify-content-start  d-none d-sm-inline-flex">
                     <p className="Popular-card-price-one"> $120</p>
                     <p className="Popular-card-price-two">
                       <del>$110</del>
@@ -86,7 +116,7 @@ const Popular = () => {
                     <p className="Popular-card-price-three">50% off</p>
                   </div>
                 </div>
-                <div className="Popular-card-body-button">
+                <div className="Popular-card-body-button ">
                   <button>Add To Cart</button>
                 </div>
               </div>
@@ -94,11 +124,11 @@ const Popular = () => {
             <div className="Popular-card">
               <img
                 src={popularAffordable}
-                className="card-img-top"
+                className="card-img-top  d-none d-sm-inline-flex"
                 alt="..."
-                style={{ width: "299px", height: "170px" }}
+                style={{ maxHeight: "170px" }}
               />
-              <div className=" Popular-card-body">
+              <div className=" Popular-card-body d-flex flex-column gap-2 gap-sm-0 ">
                 <div className="Popular-card-body-text">
                   <div className="Popular-card-body-heading">
                     <h5 className="card-title">Package Name</h5>
@@ -117,7 +147,7 @@ const Popular = () => {
                       dolor do amet
                     </p>
                   </div>
-                  <div className="Popular-card-price d-flex align-items-center justify-content-start">
+                  <div className="Popular-card-price d-flex align-items-center justify-content-start  d-none d-sm-inline-flex">
                     <p className="Popular-card-price-one"> $120</p>
                     <p className="Popular-card-price-two">
                       <del>$110</del>
@@ -133,11 +163,11 @@ const Popular = () => {
             <div className="Popular-card">
               <img
                 src={popularExtended}
-                className="card-img-top"
+                className="card-img-top  d-none d-sm-inline-flex"
                 alt="..."
-                style={{ width: "299px", height: "170px" }}
+                style={{ maxHeight: "170px" }}
               />
-              <div className=" Popular-card-body">
+              <div className=" Popular-card-body d-flex flex-column gap-2 gap-sm-0">
                 <div className="Popular-card-body-text">
                   <div className="Popular-card-body-heading">
                     <h5 className="card-title">Package Name</h5>
@@ -156,7 +186,7 @@ const Popular = () => {
                       dolor do amet
                     </p>
                   </div>
-                  <div className="Popular-card-price d-flex align-items-center justify-content-start">
+                  <div className="Popular-card-price d-flex align-items-center justify-content-start  d-none d-sm-inline-flex">
                     <p className="Popular-card-price-one"> $120</p>
                     <p className="Popular-card-price-two">
                       <del>$110</del>
@@ -172,11 +202,11 @@ const Popular = () => {
             <div className="Popular-card">
               <img
                 src={popularWellness}
-                className="card-img-top"
+                className="card-img-top  d-none d-sm-inline-flex"
                 alt="..."
-                style={{ width: "299px", height: "170px" }}
+                style={{ maxHeight: "170px" }}
               />
-              <div className=" Popular-card-body">
+              <div className=" Popular-card-body d-flex flex-column gap-2 gap-sm-0">
                 <div className="Popular-card-body-text">
                   <div className="Popular-card-body-heading">
                     <h5 className="card-title">Package Name</h5>
@@ -195,7 +225,7 @@ const Popular = () => {
                       dolor do amet
                     </p>
                   </div>
-                  <div className="Popular-card-price d-flex align-items-center justify-content-start">
+                  <div className="Popular-card-price d-flex align-items-center justify-content-start  d-none d-sm-inline-flex">
                     <p className="Popular-card-price-one"> $120</p>
                     <p className="Popular-card-price-two">
                       <del>$110</del>
@@ -211,11 +241,11 @@ const Popular = () => {
             <div className="Popular-card">
               <img
                 src={popularAdvanced}
-                className="card-img-top"
+                className="card-img-top  d-none d-sm-inline-flex"
                 alt="..."
-                style={{ width: "299px", height: "170px" }}
+                style={{ maxHeight: "170px" }}
               />
-              <div className=" Popular-card-body">
+              <div className=" Popular-card-body d-flex flex-column gap-2 gap-sm-0">
                 <div className="Popular-card-body-text">
                   <div className="Popular-card-body-heading">
                     <h5 className="card-title">Package Name</h5>
@@ -234,7 +264,7 @@ const Popular = () => {
                       dolor do amet
                     </p>
                   </div>
-                  <div className="Popular-card-price d-flex align-items-center justify-content-start">
+                  <div className="Popular-card-price d-flex align-items-center justify-content-start  d-none d-sm-inline-flex">
                     <p className="Popular-card-price-one"> $120</p>
                     <p className="Popular-card-price-two">
                       <del>$110</del>

@@ -47,7 +47,7 @@
 
 .Popular-card {
   width: 289px;
-  height: 396px;
+  max-height: 396px;
   background-color: white;
   border-radius: 16px;
   margin: 23px 0 20px 0;
@@ -69,7 +69,7 @@
   margin-top: 6px;
 }
 .Popular-card-star span {
-  margin-left: 10px;
+  margin-left: 4px;
 }
 .Popular-card-body-sub-heading p {
   font-family: Poppins;
@@ -121,4 +121,47 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 24px;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1440px) {
+  .Popular-card-container {
+    padding-left: 0px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .Popular-menu-title h1 {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .Popular-menu-title h1 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .Popular-menu-list-btn button {
+    background: transparent;
+    color: black;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  .Popular-menu-title h1 {
+    font-size: 18px;
+    line-height: 22.63px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .Popular-container {
+    padding: 40px 0 40px 0;
+  }
+  .Popular-card {
+    margin: 10px 0 0 0;
+  }
 }

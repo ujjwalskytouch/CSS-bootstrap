@@ -16,9 +16,25 @@ const Facilities = () => {
     slidesToScroll: 3,
     prevArrow: false,
     nextArrow: false,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+        },
+      },
+    ],
   };
   return (
-    <div className="facilities-container">
+    <div className="facilities-container d-none d-sm-block">
       <div className="container">
         <div className=" d-flex justify-content-between align-items-center">
           <div className="facilities-heading">
@@ -37,16 +53,16 @@ const Facilities = () => {
       <div className="facilities-card-container w-100 overflow-hidden ">
         <div className="slider-container">
           <Slider {...settings} className="custom-slider">
-            <div className="card-one mb-3" style={{ maxWidth: "478px" }}>
+            <div className="card-one mb-3">
               <div className="row g-0">
-                <div className="col-md-4">
+                <div className="col-4">
                   <img
                     src={facilitiesOne}
                     className="img-fluid rounded-start"
                     alt="..."
                   />
                 </div>
-                <div className="facilities-card-text col-md-8 d-flex flex-column justify-content-center">
+                <div className="facilities-card-text col-8 d-flex flex-column justify-content-center">
                   <h5 className="">Pathology</h5>
                   <p className="">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -55,7 +71,7 @@ const Facilities = () => {
                 </div>
               </div>
             </div>
-            <div className="card-one mb-3" style={{ maxWidth: "478px" }}>
+            <div className="card-one mb-3">
               <div className="row g-0">
                 <div className="col-md-4">
                   <img
@@ -75,7 +91,7 @@ const Facilities = () => {
                 </div>
               </div>
             </div>
-            <div className="card-one mb-3" style={{ maxWidth: "478px" }}>
+            <div className="card-one mb-3">
               <div className="row g-0">
                 <div className="col-md-4">
                   <img

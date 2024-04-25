@@ -16,16 +16,46 @@ const Health = () => {
     slidesToScroll: 1,
     prevArrow: false,
     nextArrow: false,
+    responsive: [
+      {
+        breakpoint: 1440,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 425,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
 
   return (
     <div className="health-container">
       <div className="container">
-        <div className="health-menu d-flex align-items-center justify-content-start ">
+        <div className="health-menu d-flex align-items-center justify-content-between justify-content-sm-start ">
           <div className="health-menu-title">
             <h1>Popular Health Packages</h1>
           </div>
-          <div className="health-menu-list">
+          <div className="health-menu-list d-none d-sm-block">
             <ul className="d-flex my-auto">
               <li>
                 <a href="/">All</a>
@@ -57,14 +87,14 @@ const Health = () => {
                 src={cityAdvanced}
                 className="card-img-top"
                 alt="..."
-                style={{ width: "299px", height: "170px" }}
+                style={{ maxHeight: "170px" }}
               />
               <div className=" health-card-body">
                 <div className="health-card-body-text">
                   <div className="health-card-body-heading">
                     <h5 className="card-title">Package Name</h5>
                   </div>
-                  <div className="health-card-star d-flex align-items-center">
+                  <div className="health-card-star d-flex align-items-center d-none d-sm-inline-flex">
                     <img
                       src={fourHalfStart}
                       alt=""
@@ -72,13 +102,13 @@ const Health = () => {
                     ></img>
                     <span>(10 Reviews)</span>
                   </div>
-                  <div className="health-card-body-sub-heading">
+                  <div className="health-card-body-sub-heading ">
                     <p className="card-text">
                       Amet minim mollit non deserunt ullamco est sit aliqua
                       dolor do amet
                     </p>
                   </div>
-                  <div className="health-card-price d-flex align-items-center justify-content-start">
+                  <div className="health-card-price d-flex align-items-center justify-content-start  d-none d-sm-inline-flex">
                     <p className="health-card-price-one"> $120</p>
                     <p className="health-card-price-two">
                       <del>$110</del>
@@ -86,7 +116,7 @@ const Health = () => {
                     <p className="health-card-price-three">50% off</p>
                   </div>
                 </div>
-                <div className="health-card-body-button">
+                <div className="health-card-body-button  d-none d-sm-inline-flex">
                   <button>Add To Cart</button>
                 </div>
               </div>
@@ -96,14 +126,14 @@ const Health = () => {
                 src={cityAffordable}
                 className="card-img-top"
                 alt="..."
-                style={{ width: "299px", height: "170px" }}
+                style={{ maxHeight: "170px" }}
               />
               <div className=" health-card-body">
                 <div className="health-card-body-text">
                   <div className="health-card-body-heading">
                     <h5 className="card-title">Package Name</h5>
                   </div>
-                  <div className="health-card-star d-flex align-items-center">
+                  <div className="health-card-star d-flex align-items-center  d-none d-sm-inline-flex">
                     <img
                       src={fourHalfStart}
                       alt=""
@@ -117,7 +147,7 @@ const Health = () => {
                       dolor do amet
                     </p>
                   </div>
-                  <div className="health-card-price d-flex align-items-center justify-content-start">
+                  <div className="health-card-price d-flex align-items-center justify-content-start  d-none d-sm-inline-flex">
                     <p className="health-card-price-one"> $120</p>
                     <p className="health-card-price-two">
                       <del>$110</del>
@@ -125,7 +155,7 @@ const Health = () => {
                     <p className="health-card-price-three">50% off</p>
                   </div>
                 </div>
-                <div className="health-card-body-button">
+                <div className="health-card-body-button  d-none d-sm-inline-flex">
                   <button>Add To Cart</button>
                 </div>
               </div>
@@ -135,14 +165,14 @@ const Health = () => {
                 src={cityExtended}
                 className="card-img-top"
                 alt="..."
-                style={{ width: "299px", height: "170px" }}
+                style={{ maxHeight: "170px" }}
               />
               <div className=" health-card-body">
                 <div className="health-card-body-text">
                   <div className="health-card-body-heading">
                     <h5 className="card-title">Package Name</h5>
                   </div>
-                  <div className="health-card-star d-flex align-items-center">
+                  <div className="health-card-star d-flex align-items-center  d-none d-sm-inline-flex">
                     <img
                       src={fourHalfStart}
                       alt=""
@@ -156,7 +186,7 @@ const Health = () => {
                       dolor do amet
                     </p>
                   </div>
-                  <div className="health-card-price d-flex align-items-center justify-content-start">
+                  <div className="health-card-price d-flex align-items-center justify-content-start  d-none d-sm-inline-flex">
                     <p className="health-card-price-one"> $120</p>
                     <p className="health-card-price-two">
                       <del>$110</del>
@@ -164,7 +194,7 @@ const Health = () => {
                     <p className="health-card-price-three">50% off</p>
                   </div>
                 </div>
-                <div className="health-card-body-button">
+                <div className="health-card-body-button  d-none d-sm-inline-flex">
                   <button>Add To Cart</button>
                 </div>
               </div>
@@ -174,14 +204,14 @@ const Health = () => {
                 src={cityWellness}
                 className="card-img-top"
                 alt="..."
-                style={{ width: "299px", height: "170px" }}
+                style={{ maxHeight: "170px" }}
               />
               <div className=" health-card-body">
                 <div className="health-card-body-text">
                   <div className="health-card-body-heading">
                     <h5 className="card-title">Package Name</h5>
                   </div>
-                  <div className="health-card-star d-flex align-items-center">
+                  <div className="health-card-star d-flex align-items-center  d-none d-sm-inline-flex">
                     <img
                       src={fourHalfStart}
                       alt=""
@@ -195,7 +225,7 @@ const Health = () => {
                       dolor do amet
                     </p>
                   </div>
-                  <div className="health-card-price d-flex align-items-center justify-content-start">
+                  <div className="health-card-price d-flex align-items-center justify-content-start  d-none d-sm-inline-flex">
                     <p className="health-card-price-one"> $120</p>
                     <p className="health-card-price-two">
                       <del>$110</del>
@@ -203,7 +233,7 @@ const Health = () => {
                     <p className="health-card-price-three">50% off</p>
                   </div>
                 </div>
-                <div className="health-card-body-button">
+                <div className="health-card-body-button  d-none d-sm-inline-flex">
                   <button>Add To Cart</button>
                 </div>
               </div>
@@ -213,14 +243,14 @@ const Health = () => {
                 src={cityAdvanced}
                 className="card-img-top"
                 alt="..."
-                style={{ width: "299px", height: "170px" }}
+                style={{ maxHeight: "170px" }}
               />
               <div className=" health-card-body">
                 <div className="health-card-body-text">
                   <div className="health-card-body-heading">
                     <h5 className="card-title">Package Name</h5>
                   </div>
-                  <div className="health-card-star d-flex align-items-center">
+                  <div className="health-card-star d-flex align-items-center  d-none d-sm-inline-flex">
                     <img
                       src={fourHalfStart}
                       alt=""
@@ -234,7 +264,7 @@ const Health = () => {
                       dolor do amet
                     </p>
                   </div>
-                  <div className="health-card-price d-flex align-items-center justify-content-start">
+                  <div className="health-card-price d-flex align-items-center justify-content-start  d-none d-sm-inline-flex">
                     <p className="health-card-price-one"> $120</p>
                     <p className="health-card-price-two">
                       <del>$110</del>
@@ -242,7 +272,7 @@ const Health = () => {
                     <p className="health-card-price-three">50% off</p>
                   </div>
                 </div>
-                <div className="health-card-body-button">
+                <div className="health-card-body-button  d-none d-sm-inline-flex">
                   <button>Add To Cart</button>
                 </div>
               </div>

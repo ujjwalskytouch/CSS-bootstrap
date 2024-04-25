@@ -8,7 +8,7 @@ import rightArrow from "../assets/right-arrow.png";
 const HeroSection = () => {
   return (
     <>
-      <div className="hero-section">
+      <div className="hero-section  d-none d-sm-block">
         <div className="container">
           <div className="row">
             <div className="col-8">
@@ -24,7 +24,7 @@ const HeroSection = () => {
                     <h3>Talk to a Doctor</h3>
                   </div>
                 </div>
-                <div className="col">
+                <div className="col hero-image">
                   <img src={heroImg} alt="hero-img" />
                 </div>
               </div>
@@ -32,7 +32,7 @@ const HeroSection = () => {
             <div className="hero-sec-root-box col-4">
               <div className="hero-sec-box">
                 <div className="d-flex flex-column gap-3">
-                  <div className="hero-section-form-heading  ">
+                  <div className="hero-section-form-heading">
                     <h1>My Reports</h1>
                   </div>
                   <div className="hero-section-form-field d-flex flex-column gap-2 ">
@@ -68,7 +68,7 @@ const HeroSection = () => {
           </button>
         </div>
       </div>
-      <div className="hero-des">
+      <div className="hero-des  d-none d-sm-block">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore.Lorem ipsum dolor sit amet,

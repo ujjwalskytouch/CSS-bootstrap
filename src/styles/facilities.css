@@ -73,3 +73,25 @@
   line-height: 27px;
   color: #71717a;
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1440px) {
+  .facilities-card-container {
+    padding-left: 0px;
+  }
+  .facilities-card-text {
+    padding-left: 25px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .facilities-card-text h5 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .facilities-card-text p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
