@@ -185,4 +185,7 @@
     font-size: 10px;
     line-height: 16px;
   }
+  .nav-form input {
+    padding: 8px 50px 8px 20px;
+  }
 }

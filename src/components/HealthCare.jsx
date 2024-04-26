@@ -16,10 +16,33 @@ const HealthCare = () => {
     slidesToScroll: 3,
     prevArrow: false,
     nextArrow: false,
+    responsive: [
+      {
+        breakpoint: 1440,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
 
   return (
-    <div className="healthCare-container">
+    <div className="healthCare-container d-none d-sm-block">
       <div className="container">
         <div className="d-flex justify-content-between align-items-center">
           <div className="healthCare-heading">

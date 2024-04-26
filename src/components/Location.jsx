@@ -5,7 +5,7 @@ import covid from "../assets/location/covid.png";
 
 const Location = () => {
   return (
-    <div className="location-section">
+    <div className="location-section d-none d-sm-block">
       <div className="location-container container">
         <div className="location-heading mb-5">
           <h5>Location</h5>

@@ -48,3 +48,51 @@
   left: 745.5px;
   border-radius: 5px;
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1024px) {
+  .recommend-card-color img {
+    width: 325px;
+    height: 350px;
+    background-color: #fcc42c;
+    border-radius: 0px 20px 20px 0px;
+  }
+  .recommend-card-text {
+    padding: 0 152px 0 40px;
+  }
+
+  .laptop {
+    left: 500px;
+  }
+  .screen {
+    left: 543.5px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .recommend-card-color img {
+    width: 270px;
+    height: 350px;
+    background-color: #fcc42c;
+    border-radius: 0px 20px 20px 0px;
+  }
+  .recommend-card-text p {
+    font-size: 15px;
+    line-height: 26px;
+  }
+
+  .recommend-card-text {
+    padding: 0 90px 0 40px;
+  }
+
+  .laptop {
+    left: 355px;
+    width: 280px;
+    top: 95px;
+  }
+  .screen {
+    left: 387px;
+    width: 215px;
+    top: 100px;
+  }
+}

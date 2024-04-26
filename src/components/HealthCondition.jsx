@@ -18,6 +18,22 @@ const HealthCondition = () => {
     slidesToScroll: 1,
     prevArrow: false,
     nextArrow: false,
+    responsive: [
+      {
+        breakpoint: 1440,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 450,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
   return (
     <div className="test-by-condition-container">
@@ -104,6 +120,12 @@ const HealthCondition = () => {
             </div>
             <div>
               <h3>7</h3>
+            </div>
+            <div>
+              <h3>8</h3>
+            </div>
+            <div>
+              <h3>9</h3>
             </div>
           </Slider>
         </div>

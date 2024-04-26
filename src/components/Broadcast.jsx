@@ -15,7 +15,7 @@ import dot from "../assets/broadcast/dot.png";
 const Broadcast = () => {
   return (
     <>
-      <div className="broad-print-container d-flex flex-column">
+      <div className="broad-print-container d-flex flex-column d-none d-sm-block">
         <div className="broadcast-container">
           <div className="container">
             <div className="row">
@@ -32,7 +32,7 @@ const Broadcast = () => {
               </div>
 
               <div className="broadcast-card-container d-flex justify-content-between align-items-center">
-                <div className="broadcast-card">
+                <div className="broadcast-card broadcast-card-one ">
                   <div className="broadcast-card-image position-relative">
                     <img
                       src={firstOne}
@@ -74,7 +74,7 @@ const Broadcast = () => {
                     </div>
                   </div>
                 </div>
-                <div className="broadcast-card">
+                <div className="broadcast-card broadcast-card-two">
                   <div className="broadcast-card-image position-relative">
                     <img
                       src={firstTwo}
@@ -115,7 +115,7 @@ const Broadcast = () => {
                     </div>
                   </div>
                 </div>
-                <div className="broadcast-card">
+                <div className="broadcast-card broadcast-card-three">
                   <div className="broadcast-card-image position-relative">
                     <img
                       src={firstThree}
@@ -176,7 +176,7 @@ const Broadcast = () => {
               </div>
 
               <div className="broadcast-card-container d-flex justify-content-between align-items-center">
-                <div className="broadcast-card">
+                <div className="broadcast-card broadcast-card-one">
                   <img
                     src={secOne}
                     className="card-img-top"
@@ -213,7 +213,7 @@ const Broadcast = () => {
                     </div>
                   </div>
                 </div>
-                <div className="broadcast-card">
+                <div className="broadcast-card broadcast-card-two">
                   <img
                     src={secTwo}
                     className="card-img-top"
@@ -248,7 +248,7 @@ const Broadcast = () => {
                     </div>
                   </div>
                 </div>
-                <div className="broadcast-card">
+                <div className="broadcast-card broadcast-card-three">
                   <img
                     src={firstThree}
                     className="card-img-top"

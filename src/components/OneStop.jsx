@@ -4,7 +4,7 @@ import frame from "../assets/one-stop/Frame.png";
 
 const OneStop = () => {
   return (
-    <div className="one-stop-container">
+    <div className="one-stop-container d-none d-sm-block">
       <div className="container">
         <div className="one-stop-content d-flex flex-column ">
           <div className="one-stop-top-content d-flex flex-column gap-3">

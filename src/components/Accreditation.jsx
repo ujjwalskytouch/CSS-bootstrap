@@ -17,6 +17,36 @@ const Accreditation = () => {
     slidesToScroll: 1,
     prevArrow: false,
     nextArrow: false,
+    responsive: [
+      {
+        breakpoint: 1440,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 425,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
 
   return (
@@ -45,7 +75,7 @@ const Accreditation = () => {
                   src={mainOne}
                   className="card-img-top "
                   alt="..."
-                  style={{ width: "148px", height: "200px" }}
+                  style={{ width: "148px", maxHeight: "200px" }}
                 />
               </div>
               <div className="accreditation-body ">
@@ -68,7 +98,7 @@ const Accreditation = () => {
                   src={mainTwo}
                   className="card-img-top "
                   alt="..."
-                  style={{ width: "148px", height: "200px" }}
+                  style={{ width: "148px", maxHeight: "200px" }}
                 />
               </div>
               <div className="accreditation-body ">
@@ -91,7 +121,7 @@ const Accreditation = () => {
                   src={mainThree}
                   className="card-img-top "
                   alt="..."
-                  style={{ width: "148px", height: "200px" }}
+                  style={{ width: "148px", maxHeight: "200px" }}
                 />
               </div>
               <div className="accreditation-body ">
@@ -114,7 +144,7 @@ const Accreditation = () => {
                   src={mainFour}
                   className="card-img-top "
                   alt="..."
-                  style={{ width: "148px", height: "200px" }}
+                  style={{ width: "148px", maxHeight: "200px" }}
                 />
               </div>
               <div className="accreditation-body ">
@@ -137,7 +167,7 @@ const Accreditation = () => {
                   src={mainOne}
                   className="card-img-top "
                   alt="..."
-                  style={{ width: "148px", height: "200px" }}
+                  style={{ width: "148px", maxHeight: "200px" }}
                 />
               </div>
               <div className="accreditation-body ">

@@ -123,6 +123,40 @@
   line-height: 24px;
 }
 
+/* MOBILE */
+
+.advertising-card {
+  height: 150px;
+  max-width: 425px;
+  background: linear-gradient(90.33deg, #ffeebf 0.29%, #ffe397 123.12%);
+
+  padding: 16px 12px 16px 12px;
+  border-radius: 16px;
+}
+
+.advertising-card-content h1 {
+  font-family: Source Sans Pro;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17.6px;
+  text-align: left;
+  color: #27272a;
+}
+
+.advertising-offer {
+  background: #fcc42c;
+  width: 49px;
+  padding: 3px 6px 3px 6px;
+  border-radius: 24px;
+}
+
+.advertising-offer h3 {
+  font-family: Poppins;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 15px;
+  color: #ffffff;
+}
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 1440px) {
@@ -160,8 +194,9 @@
 @media screen and (max-width: 425px) {
   .Popular-container {
     padding: 40px 0 40px 0;
+    background-color: white;
   }
   .Popular-card {
-    margin: 10px 0 0 0;
+    margin: 10px 0 10px 0;
   }
 }

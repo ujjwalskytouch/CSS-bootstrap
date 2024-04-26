@@ -12,8 +12,8 @@ import nine from "../assets/whyChooseUs/nine.png";
 
 const WhyChooseUs = () => {
   return (
-    <div className="whyChooseUs-container">
-      <div className="container">
+    <div className="whyChooseUs-container d-none d-sm-block">
+      <div className="container ">
         <div className=" d-flex justify-content-start align-items-center">
           <div className="whyChooseUs-heading">
             <h1>Why Choose Us</h1>
@@ -52,7 +52,7 @@ const WhyChooseUs = () => {
               <h5>Team of Experienced Doctors & Staffs</h5>
             </div>
           </div>
-          <div className="whyChooseUs-card">
+          <div className="whyChooseUs-card  whyChooseUs-card-five ">
             <div className="whyChooseUs-card-logo text-center">
               <img src={five} alt="" />
             </div>
@@ -61,7 +61,7 @@ const WhyChooseUs = () => {
             </div>
           </div>
         </div>
-        <div className="whyChooseUs-card-container-two d-flex whyChooseUs-newCard">
+        <div className="whyChooseUs-card-container-two d-flex justify-content-center whyChooseUs-newCard">
           <div className="whyChooseUs-card ">
             <div className="whyChooseUs-card-logo text-center">
               <img src={six} alt="" />

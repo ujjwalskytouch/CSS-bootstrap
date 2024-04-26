@@ -63,3 +63,16 @@
   background-color: #fffdf8;
   border: 1px solid #6a5f371a;
 }
+
+@media screen and (max-width: 1024px) {
+  .announcement-card {
+    max-width: 170px;
+    max-height: 238px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .announcement-card {
+    max-width: 125px;
+    max-height: 238px;
+  }
+}

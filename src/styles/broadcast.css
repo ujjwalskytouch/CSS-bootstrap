@@ -75,3 +75,22 @@
 .broadcast-body-sub-heading span {
   font-weight: 700;
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1024px) {
+  .broadcast-card-three {
+    display: none;
+  }
+  .broadcast-card-three {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .broadcast-card-two {
+    display: none;
+  }
+  .broadcast-card-two {
+    display: none;
+  }
+}

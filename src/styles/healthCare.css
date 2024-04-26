@@ -56,3 +56,28 @@
   letter-spacing: 1%;
   color: #3a3e44;
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1440px) {
+  .healthCare-card-container {
+    padding-left: 0px;
+    /* margin-top: 20px; */
+  }
+  .healthCare-card-body img {
+    max-width: 310px;
+    height: auto;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .healthCare-card-body img {
+    max-width: 295px;
+    height: auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  .healthCare-card-body img {
+    max-width: 335px;
+    height: auto;
+  }
+}

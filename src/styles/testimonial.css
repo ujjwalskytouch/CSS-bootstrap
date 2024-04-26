@@ -65,7 +65,6 @@
 }
 .testimonial-text-one {
   padding: 0 11rem;
-
   font-family: Poppins;
   font-weight: 600;
   font-size: 20px;
@@ -81,4 +80,24 @@
   line-height: 24px;
   letter-spacing: -0.17px;
   color: #a1a1aa;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1024px) {
+  .testimonial-content {
+    gap: 50px;
+  }
+  .testimonial-text-one {
+    font-size: 16px;
+  }
+  .testimonial-text-two {
+    font-size: 14px;
+    padding: 0 11.4rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .testimonial-content-image {
+    display: none;
+  }
 }

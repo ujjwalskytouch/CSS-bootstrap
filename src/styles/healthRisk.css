@@ -67,3 +67,53 @@
   border-radius: 0px 0px 4px 4px;
   overflow: hidden;
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1440px) {
+  .test-by-risk-card-container {
+    padding-left: 0px;
+  }
+  .test-by-risk-card-body img {
+    width: 238px !important;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .test-by-risk-card-body img {
+    width: 340px !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .test-by-risk-card-body img {
+    width: 254px !important;
+  }
+}
+@media screen and (max-width: 450px) {
+  .test-by-risk-heading h1 {
+    font-size: 18px;
+    line-height: 22.63px;
+  }
+  .test-by-risk-btn {
+    gap: 10px;
+  }
+  .test-by-risk-left-btn {
+    border-radius: 25px;
+    width: 30px;
+    height: 30px;
+    gap: 10px;
+  }
+  .test-by-risk-right-btn {
+    border-radius: 25px;
+    width: 30px;
+    height: 30px;
+    gap: 10px;
+  }
+  .test-by-risk-card-body img {
+    width: 211px !important;
+    height: 114px !important;
+  }
+  .test-by-risk-container {
+    padding: 0;
+  }
+}

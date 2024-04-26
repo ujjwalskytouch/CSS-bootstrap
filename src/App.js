@@ -31,7 +31,7 @@ function App() {
       <Facilities />
       <Health />
       <Popular />
-      {/*  <HealthRisk />
+      <HealthRisk />
       <HealthCondition />
       <Modality />
       <Announcement />
@@ -46,7 +46,7 @@ function App() {
       <OurJourney />
       <Location />
       <OneStop />
-      <Footer /> */}
+      <Footer />
     </>
   );
 }

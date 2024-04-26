@@ -15,10 +15,10 @@
   margin-top: 20px;
 }
 
-.whyChooseUs-card-container-two {
+/* .whyChooseUs-card-container-two {
   display: flex;
   justify-content: center;
-}
+} */
 
 .whyChooseUs-card {
   width: 201px;
@@ -51,4 +51,24 @@
 .whyChooseUs-newCard {
   gap: 72px;
   margin-top: 46px;
+}
+
+@media screen and (max-width: 1024px) {
+  .whyChooseUs-newCard {
+    gap: 107px;
+    margin-top: 60px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .whyChooseUs-card-container {
+    gap: 5px;
+    margin-top: 60px;
+  }
+  .whyChooseUs-newCard {
+    gap: 4px;
+  }
+  .whyChooseUs-card-five {
+    display: none;
+  }
 }

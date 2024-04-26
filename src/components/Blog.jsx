@@ -21,6 +21,36 @@ const Blog = () => {
     slidesToScroll: 1,
     prevArrow: false,
     nextArrow: false,
+    responsive: [
+      {
+        breakpoint: 1440,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 425,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
 
   return (
@@ -48,7 +78,7 @@ const Blog = () => {
                 src={mainOne}
                 className="card-img-top"
                 alt="..."
-                style={{ width: "299px", height: "170px" }}
+                style={{ maxHeight: "170px" }}
               />
               <div className="blog-body">
                 <div className="blog-body-text d-flex flex-column position-relative">
@@ -76,7 +106,7 @@ const Blog = () => {
                 src={mainTwo}
                 className="card-img-top"
                 alt="..."
-                style={{ width: "299px", height: "170px" }}
+                style={{ maxHeight: "170px" }}
               />
               <div className="blog-body">
                 <div className="blog-body-text d-flex flex-column position-relative">
@@ -104,7 +134,7 @@ const Blog = () => {
                 src={mainThree}
                 className="card-img-top"
                 alt="..."
-                style={{ width: "299px", height: "170px" }}
+                style={{ maxHeight: "170px" }}
               />
               <div className="blog-body">
                 <div className="blog-body-text d-flex flex-column position-relative">
@@ -132,7 +162,7 @@ const Blog = () => {
                 src={mainFour}
                 className="card-img-top"
                 alt="..."
-                style={{ width: "299px", height: "170px" }}
+                style={{ maxHeight: "170px" }}
               />
               <div className="blog-body">
                 <div className="blog-body-text d-flex flex-column position-relative">
@@ -160,7 +190,7 @@ const Blog = () => {
                 src={mainOne}
                 className="card-img-top"
                 alt="..."
-                style={{ width: "299px", height: "170px" }}
+                style={{ maxHeight: "170px" }}
               />
               <div className="blog-body">
                 <div className="blog-body-text d-flex flex-column position-relative">

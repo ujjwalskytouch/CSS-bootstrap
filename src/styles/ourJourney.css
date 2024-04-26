@@ -8,3 +8,8 @@
   line-height: 40px;
   color: #0f1329;
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 768px) {
+}

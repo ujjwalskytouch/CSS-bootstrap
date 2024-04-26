@@ -6,7 +6,7 @@ import appStore from "../assets/presenting/app-store.png";
 
 const Presenting = () => {
   return (
-    <div className="presenting-container">
+    <div className="presenting-container d-none d-sm-block">
       <div className="container-xl d-flex justify-content-center">
         <div className="presenting-content d-flex ">
           <div className="presenting-content-image">

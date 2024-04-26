@@ -6,7 +6,7 @@ import "../styles/recommend.css";
 
 const Recommend = () => {
   return (
-    <div className="recommend-container">
+    <div className="recommend-container d-none d-sm-block">
       <div className="container">
         <div className="d-flex justify-content-start align-items-center">
           <div className="recommend-heading">

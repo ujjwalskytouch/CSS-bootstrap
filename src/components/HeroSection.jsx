@@ -69,12 +69,12 @@ const HeroSection = () => {
         </div>
       </div>
       <div className="hero-des  d-none d-sm-block">
-        <p>
+        <marquee>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore.Lorem ipsum dolor sit amet,
           consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
           labore.
-        </p>
+        </marquee>
       </div>
     </>
   );

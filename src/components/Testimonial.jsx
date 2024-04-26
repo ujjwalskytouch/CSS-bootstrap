@@ -13,7 +13,7 @@ import ellipseFive from "../assets/testimonial/Ellipse 5.png";
 
 const Testimonial = () => {
   return (
-    <div className="testimonial-container">
+    <div className="testimonial-container d-none d-sm-block">
       <div className="container">
         <div className="row d-flex testimonial-row">
           <div className="d-flex justify-content-between align-items-center">
@@ -30,7 +30,7 @@ const Testimonial = () => {
             </div>
           </div>
           <div className="testimonial-content d-flex">
-            <div>
+            <div className="testimonial-content-image">
               <img src={mainImg} alt="" />
             </div>
             <div className="testimonial-left-side-info d-flex flex-column ">

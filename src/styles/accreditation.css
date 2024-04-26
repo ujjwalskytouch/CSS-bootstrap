@@ -40,7 +40,7 @@
   margin-top: 32px;
 }
 .accreditation-card {
-  height: 386px;
+  max-height: 386px;
   width: 262px;
 }
 .accreditation-img {
@@ -83,4 +83,50 @@
   font-size: 14px;
   line-height: 18px;
   color: #71717a;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1440px) {
+  .accreditation-card-container {
+    padding-left: 0px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .accreditation-container {
+    padding: 0px 0 40px 0;
+    background-color: white;
+  }
+  .accreditation-card-container {
+    margin: 10px 0 10px 0;
+  }
+  .accreditation-heading h1 {
+    font-size: 18px;
+    line-height: 22.63px;
+  }
+  .accreditation-btn {
+    gap: 10px;
+  }
+  .accreditation-left-btn {
+    border-radius: 25px;
+    width: 30px;
+    height: 30px;
+    gap: 10px;
+  }
+  .accreditation-right-btn {
+    border-radius: 25px;
+    width: 30px;
+    height: 30px;
+    gap: 10px;
+  }
+  .accreditation-body-heading h5 {
+    font-size: 22px;
+  }
+  .accreditation-img {
+    height: 225px;
+  }
+  .accreditation-img img {
+    width: 120px !important;
+  }
 }

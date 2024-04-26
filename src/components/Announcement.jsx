@@ -8,14 +8,14 @@ import testPackageFour from "../assets/announcement/New TestPackage four.png";
 
 const Announcement = () => {
   return (
-    <div className="announcement-container">
+    <div className="announcement-container d-none d-sm-block">
       <div className="container">
         <div className=" d-flex justify-content-start align-items-center">
           <div className="announcement-heading">
             <h1>Latest Announcement</h1>
           </div>
         </div>
-        <div className="announcement-card-container d-flex align-items-center justify-content-between">
+        <div className="announcement-card-container d-flex align-items-center justify-content-between ">
           <div className="announcement-card one">
             <img src={allergy} className="card-img-top" alt="..." />
             <div className="announcement-card-body text-center">

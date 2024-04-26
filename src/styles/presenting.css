@@ -1,6 +1,6 @@
 .presenting-container {
-  height: 657.57px;
-  padding: 70px 0px;
+  max-height: 657.57px;
+  padding: 70px 0px 0px 0px;
 }
 
 .presenting-content {
@@ -26,4 +26,19 @@
   font-size: 14px;
   line-height: 18px;
   color: #71717a;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 768px) {
+  .presenting-content-image img {
+    width: 260px;
+  }
+  .presenting-content-title {
+    font-size: 29px;
+    line-height: 36px;
+  }
+  .presenting-content-info {
+    gap: 30px;
+  }
 }
